@@ -1,0 +1,9 @@
+[submodule "P3D/vendor/spdlog"]
+	path = P3D/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "P3DEngine/vendor/spdlog"]
+	path = P3DEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "P3DEngine/vendor/P3D/vendor/spdlog"]
+	path = P3DEngine/vendor/P3D/vendor/spdlog
+	url = https://github.com/gabime/spdlog
