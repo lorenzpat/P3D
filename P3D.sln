@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{931A86D5-A524-413D-9FB8-E7A92C2ECADC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P3D", "P3DEngine\P3DEngine.vcxproj", "{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P3DEngine", "P3DEngine\P3DEngine.vcxproj", "{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Debug|x64.ActiveCfg = Debug|x64
-		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Debug|x64.Build.0 = Debug|x64
-		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Release|x64.ActiveCfg = Release|x64
-		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Release|x64.Build.0 = Release|x64
 		{931A86D5-A524-413D-9FB8-E7A92C2ECADC}.Debug|x64.ActiveCfg = Debug|x64
 		{931A86D5-A524-413D-9FB8-E7A92C2ECADC}.Debug|x64.Build.0 = Debug|x64
 		{931A86D5-A524-413D-9FB8-E7A92C2ECADC}.Release|x64.ActiveCfg = Release|x64
 		{931A86D5-A524-413D-9FB8-E7A92C2ECADC}.Release|x64.Build.0 = Release|x64
+		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Debug|x64.ActiveCfg = Debug|x64
+		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Debug|x64.Build.0 = Debug|x64
+		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Release|x64.ActiveCfg = Release|x64
+		{9C840304-D2C6-4E57-9EF1-3EE4344E9F7F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

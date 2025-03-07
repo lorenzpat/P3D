@@ -57,7 +57,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WINDOWSBUILD; _DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\P3DEngine\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\P3DEngine\src;$(SolutionDir)P3DEngine\vendor\spdlog\include\;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -72,7 +74,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PLATFORM_WINDOWSBUILD; NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\P3DEngine\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\P3DEngine\src;$(SolutionDir)P3DEngine\vendor\spdlog\include\;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
